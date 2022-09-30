@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Calculatore </title>
+    <script src="sylvester.src.js"></script>
+    <link rel="stylesheet" href="clac.css">
+    
+</head>
+<body style="text-align: center;">
+        <h1 style="color: green;">
+            Matrix Calculatore  
+        </h1>
+        <p>
+            Size of Array is 3 
+            Any Empty Field set to 0 by default
+        </p>
+        <br>
+        <form name="index" action="">
+            <div class="matrix">
+                <p class="head">Matrix A</p>
+                <div class="row">
+                    <input type="text" class="num" name="anum1" size="4" />
+                    <input type="text" class="num" name="anum2" size="4" />
+                    <input type="text" class="num" name="anum3" size="4" />                
+                </div>
+                <div class="row">
+                    <input type="text" class="num" name="anum4" size="4" />
+                    <input type="text" class="num" name="anum5" size="4" />
+                    <input type="text" class="num" name="anum6" size="4" />                
+                </div>
+                <div class="row">
+                    <input type="text" class="num" name="anum7" size="4" />
+                    <input type="text" class="num" name="anum8" size="4" />
+                    <input type="text" class="num" name="anum9" size="4" />                
+                </div>
+            </div>
+            <div class="matrix">
+                <p class="head">Matrix B</p>
+                <div class="row">
+                    <input type="text" class="num" name="bnum1" size="4" />
+                    <input type="text" class="num" name="bnum2" size="4" />
+                    <input type="text" class="num" name="bnum3" size="4" />                
+                </div>
+                <div class="row">
+                    <input type="text" class="num" name="bnum4" size="4" />
+                    <input type="text" class="num" name="bnum5" size="4" />
+                    <input type="text" class="num" name="bnum6" size="4" />                
+                </div>
+                <div class="row">
+                    <input type="text" class="num" name="bnum7" size="4" />
+                    <input type="text" class="num" name="bnum8" size="4" />
+                    <input type="text" class="num" name="bnum9" size="4" />                
+                </div>
+            </div>
+            <div class="matrix">
+                <p class="head">Matrix C</p>
+                <div class="row">
+                    <input type="text" class="num" name="cnum1" size="4" value=""/>
+                    <input type="text" class="num" name="cnum2" size="4" value=""/>
+                    <input type="text" class="num" name="cnum3" size="4" value=""/>                
+                </div>
+                <div class="row">
+                    <input type="text" class="num" name="cnum4" size="4" value=""/>
+                    <input type="text" class="num" name="cnum5" size="4" value=""/>
+                    <input type="text" class="num" name="cnum6" size="4" />                
+                </div>
+                <div class="row">
+                    <input type="text" class="num" name="cnum7" size="4" value=""/>
+                    <input type="text" class="num" name="cnum8" size="4" value=""/>
+                    <input type="text" class="num" name="cnum9" size="4" value=""/>                
+                </div>
+
+            </div>      
+            <br>
+            <div class="calcOperation" > 
+                <input class="btn-calculate"  type="button" id="mbutton" value="x" />
+                <input class="btn-calculate"  type="button" id="addbutton" value="+" />
+                <input class="btn-calculate"  type="button" id="subtbutton" value="-" />
+            </div>
+
+        </form>         
+<script src="calc.js"></script>    
+</body>
+</html>
